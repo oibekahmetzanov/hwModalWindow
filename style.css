@@ -1,0 +1,58 @@
+.show_btn{
+    width: 180px;
+    height: 60px;
+    display: block;
+    font-size: 20px;
+    border-radius: 18px;
+}
+.color_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.green{
+    background-color: green;
+    
+}
+.red{
+    background-color: red;
+    
+}
+.head_modal{
+    display: flex;
+    justify-content: space-between;
+}
+.mod_block{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    /* background-color: rgb(181, 171, 171); */
+    /* display: flex; */
+    justify-content: center;
+    backdrop-filter: blur(5px);
+margin-top: -60px;
+   
+}
+.modal{
+outline: auto;
+    background-color: rgb(187, 239, 239);
+    width: 40%;
+    height: 20%;
+    font-size: 35px;
+    margin: 25%;
+    padding: 20px;
+    border-radius: 50px;
+   
+
+    
+}
+.window{
+   /* text-align: center; */
+    width: 100%;
+    height: 100%;
+}
+.close{
+    font-size:4rem;
+}
